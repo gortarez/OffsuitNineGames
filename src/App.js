@@ -1,24 +1,21 @@
-import React, { Component } from 'react';
-import { Amplify } from 'aws-amplify';
-import { withAuthenticator } from 'aws-amplify-react';
-import { TableList } from "./compnents/TableList";
-
-import awsconfig from './aws-exports';
+import React from 'react';
+import {AppContainer} from "./components/layout/app-container";
+import {Amplify} from 'aws-amplify';
+import {withAuthenticator} from 'aws-amplify-react';
 import 'semantic-ui-css/semantic.min.css';
+import awsconfig from './aws-exports';
 
-// Amplify init
 Amplify.configure(awsconfig);
 
-
-class App extends Component {
+class App extends React.Component {
     render() {
         return (
-            <TableList />
-    );
+            <AppContainer />
+        );
     }
 }
 
-const AppWithAuth = withAuthenticator(App, true);
+const AppWithAuth = withAuthenticator(App, false);
 
 export default () => (
     <AppWithAuth />
