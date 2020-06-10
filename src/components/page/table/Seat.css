@@ -1,0 +1,105 @@
+.player1 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: calc(100vw * .14 * -1);
+    margin-left: calc(100vw * .16);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.player2 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: calc(100vw * .08 * -1);
+    margin-left: calc(100vw * .30);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.player3 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: calc(100vw * .08 * 1);
+    margin-left: calc(100vw * .30);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.player4 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: calc(100vw * .14 * 1);
+    margin-left: calc(100vw * .16);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.player5 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: calc(100vw * .14 * 1);
+    margin-left: 0;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.player6 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: calc(100vw * .14 * 1);
+    margin-left: calc(100vw * -.16);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.player7 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: calc(100vw * .08 * 1);
+    margin-left: calc(100vw * -.30);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.player8 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: calc(100vw * .08 * -1);
+    margin-left: calc(100vw * -.30);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.player9 {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top: calc(100vw * .14 * -1);
+    margin-left: calc(100vw * -.16);
+    transform: translateX(-50%) translateY(-50%);
+}
+.player-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    min-height: 24px;
+}
+.player {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.player img.avatar {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.player-timer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+}

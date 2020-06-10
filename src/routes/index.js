@@ -1,6 +1,6 @@
 import React from "react";
 import {Lobby} from "../components/page/lobby";
-import {Table} from "../components/page/table";
+import Table from "../components/page/table/Table";
 
 export const Routes = [
     {
